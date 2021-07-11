@@ -42,6 +42,10 @@ along with pgp-keys-map.  If not, see <http://www.gnu.org/licenses />.
 		<javase.bootclasspath>${javase.bootclasspath.8}</javase.bootclasspath>
 
 		<description.html><![CDATA[Additional <a target="${javadoc.target}" href="https://github.com/s4u/pgp-keys-map">PGP keys map</a> for dependencies used by AO open-source projects.]]></description.html>
+		<!-- SonarCloud.io -->
+		<sonar.projectKey>${project.groupId}:${project.artifactId}</sonar.projectKey>
+		<sonar.organization>aoindustries</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<name>AO PGP Keys Map</name>
