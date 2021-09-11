@@ -37,7 +37,7 @@ along with pgp-keys-map.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2021-07-08T19:12:26-05:00"
-		dateModified="2021-09-09T02:00:17-05:00"
+		dateModified="2021-09-10T20:23:52-05:00"
 	>
 		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
 			<changelog:release
@@ -50,7 +50,7 @@ along with pgp-keys-map.  If not, see <http://www.gnu.org/licenses />.
 			>
 				<ul>
 					<li>Added keys map for <ao:a href="https://groovy.github.io/gmaven/groovy-maven-plugin/">groovy-maven-plugin</ao:a></li>
-					<li>TODO: Added keys map for Struts 2</li>
+					<li>Added keys map for <ao:a href="https://struts.apache.org/">Struts 2</ao:a></li>
 					<li>TODO: Integrated Maven Central Repository artifacts into the main
 						<ao:a href="https://github.com/s4u/pgp-keys-map">PGP keys map</ao:a> project.
 					</li>
