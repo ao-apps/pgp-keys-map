@@ -44,7 +44,7 @@ along with pgp-keys-map.  If not, see <http://www.gnu.org/licenses />.
 		<description.html><![CDATA[Additional <a target="${javadoc.target}" href="https://github.com/s4u/pgp-keys-map">PGP keys map</a> for dependencies used by AO open-source projects.]]></description.html>
 		<!-- SonarQube -->
 		<sonar.projectKey>${project.groupId}:${project.artifactId}</sonar.projectKey>
-		<sonar.organization>aoindustries</sonar.organization>
+		<sonar.organization>ao-apps</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
@@ -77,20 +77,20 @@ along with pgp-keys-map.  If not, see <http://www.gnu.org/licenses />.
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/aoindustries/pgp-keys-map.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/pgp-keys-map.git</developerConnection>
-		<url>https://github.com/aoindustries/pgp-keys-map</url>
+		<connection>scm:git:git://github.com/ao-apps/pgp-keys-map.git</connection>
+		<developerConnection>scm:git:git@github.com:ao-apps/pgp-keys-map.git</developerConnection>
+		<url>https://github.com/ao-apps/pgp-keys-map</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/aoindustries/pgp-keys-map/issues</url>
+		<url>https://github.com/ao-apps/pgp-keys-map/issues</url>
 	</issueManagement>
 
 	<ciManagement>
 		<system>GitHub Actions</system>
-		<url>https://github.com/aoindustries/pgp-keys-map/actions</url>
+		<url>https://github.com/ao-apps/pgp-keys-map/actions</url>
 	</ciManagement>
 
 	<repositories>
