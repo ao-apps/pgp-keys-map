@@ -37,7 +37,7 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2021-07-08T19:12:26-05:00"
-		dateModified="2021-11-28T15:57:08-06:00"
+		dateModified="2021-12-01T16:54:03-06:00"
 	>
 		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
 			<changelog:release
@@ -49,11 +49,7 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
 				scmUrl="@{project.scm.url}"
 			>
 				<ul>
-					<li>
-						Temporarily added some more keys within <code>org.apache.*</code>.  Once these keys are merged into the upstream
-						<ao:a href="https://github.com/s4u/pgp-keys-map">PGP keys map</ao:a> project, we will rollback this
-						project to version 1.1.0.
-					</li>
+					<li>Added Jenkins continuous integration.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
