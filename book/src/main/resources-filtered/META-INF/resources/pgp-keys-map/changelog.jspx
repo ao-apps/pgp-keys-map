@@ -37,7 +37,7 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2021-07-08T19:12:26-05:00"
-    dateModified="2022-03-15T08:10:34-05:00"
+    dateModified="2022-05-12T09:15:41-05:00"
   >
     <c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
       <changelog:release
@@ -47,15 +47,7 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
         artifactId="@{documented.artifactId}"
         repository="@{nexusUrl}content/repositories/snapshots/"
         scmUrl="@{project.scm.url}"
-      >
-        <ul>
-          <li>
-            Temporarily added new PGP key for <code>org.eclipse.jetty</code> and <code>org.eclipse.jetty.websocket</code>.
-            Once these keys are merged into the upstream <ao:a href="https://github.com/s4u/pgp-keys-map">PGP keys map</ao:a>
-            project, we will rollback this project to version 1.2.0.
-          </li>
-        </ul>
-      </changelog:release>
+      />
     </c:if>
 
     <changelog:release
