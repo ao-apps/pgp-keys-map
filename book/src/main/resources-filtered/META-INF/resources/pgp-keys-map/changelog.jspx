@@ -37,7 +37,7 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2021-07-08T19:12:26-05:00"
-    dateModified="2022-06-29T12:28:19-05:00"
+    dateModified="2022-07-02T13:53:59-05:00"
   >
     <c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
       <changelog:release
@@ -50,13 +50,8 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
       >
         <ul>
           <li>
-            Temporarily added new PGP key for <code>com.google.protobuf:protobuf-java</code>.
-            These keys will be removed from this project once merged into the upstream
-            <ao:a href="https://github.com/s4u/pgp-keys-map">PGP keys map</ao:a>.
-          </li>
-          <li>
-            Additional client-specific groupId signed by <ao:a href="mailto:support@aoindustries.com" /> or AO Jenkins
-            (for *-SNAPSHOT only).
+            Additional client-specific groupId signed by <ao:a href="mailto:support@aoindustries.com" /> (for developers)
+            or <ao:a href="mailto:jenkins@aoindustries.com" /> (for Jenkins C.I. builds of *-SNAPSHOT only).
           </li>
         </ul>
       </changelog:release>
