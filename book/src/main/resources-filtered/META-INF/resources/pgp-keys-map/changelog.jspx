@@ -47,7 +47,11 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
         artifactId="@{documented.artifactId}"
         repository="@{nexusUrl}content/repositories/snapshots/"
         scmUrl="@{project.scm.url}"
-      />
+      >
+        <ul>
+          <li>Temporarily added new PGP keys.</li>
+        </ul>
+      </changelog:release>
     </c:if>
 
     <changelog:release
