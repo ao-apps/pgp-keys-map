@@ -37,7 +37,7 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2021-07-08T19:12:26-05:00"
-    dateModified="2023-04-07T21:20:17Z"
+    dateModified="2023-04-14T17:30:40Z"
   >
     <c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
       <changelog:release
@@ -47,12 +47,21 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
         artifactId="@{documented.artifactId}"
         repository="@{nexusUrl}content/repositories/snapshots/"
         scmUrl="@{project.scm.url}"
-      >
-        <ul>
-          <li>Split some client-specific *-SNAPSHOT builds to separate agents with different PGP keys.</li>
-        </ul>
-      </changelog:release>
+      />
     </c:if>
+
+    <changelog:release
+      projectName="@{documented.name}"
+      version="1.8.0"
+      datePublished="2023-04-14T17:30:40Z"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>Split some client-specific *-SNAPSHOT builds to separate agents with different PGP keys.</li>
+      </ul>
+    </changelog:release>
 
     <changelog:release
       projectName="@{documented.name}"
