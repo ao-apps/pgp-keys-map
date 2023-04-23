@@ -25,15 +25,15 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.aoapps</groupId><artifactId>ao-oss-parent</artifactId><version>1.21.1-POST-SNAPSHOT</version>
+    <groupId>com.aoapps</groupId><artifactId>ao-oss-parent</artifactId><version>1.21.2-SNAPSHOT</version>
     <relativePath>../parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>com.aoapps</groupId><artifactId>pgp-keys-map</artifactId><version>1.8.0-POST-SNAPSHOT</version>
+  <groupId>com.aoapps</groupId><artifactId>pgp-keys-map</artifactId><version>1.9.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
 
   <properties>
-    <project.build.outputTimestamp>2023-04-14T17:30:43Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2023-04-22T23:32:40Z</project.build.outputTimestamp>
     <module.name>com.aoapps.pgp.keys.map</module.name>
     <!-- Java 1.8 -->
     <javase.version>1.8</javase.version>
