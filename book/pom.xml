@@ -29,11 +29,11 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
     <relativePath>../../parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>com.aoapps</groupId><artifactId>pgp-keys-map-book</artifactId><version>1.9.0</version>
+  <groupId>com.aoapps</groupId><artifactId>pgp-keys-map-book</artifactId><version>1.9.0-POST-SNAPSHOT</version>
   <packaging>bundle</packaging>
 
   <properties>
-    <project.build.outputTimestamp>2023-07-03T19:52:42Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2023-07-03T19:53:27Z</project.build.outputTimestamp>
     <module.name>com.aoapps.pgp.keys.map.book</module.name>
     <!-- These values are copied from the project being documented -->
     <documented.artifactId>pgp-keys-map</documented.artifactId>
@@ -78,7 +78,7 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
     <connection>scm:git:git://github.com/ao-apps/pgp-keys-map.git</connection>
     <developerConnection>scm:git:git@github.com:ao-apps/pgp-keys-map.git</developerConnection>
     <url>https://github.com/ao-apps/pgp-keys-map</url>
-    <tag>pgp-keys-map-book-1.9.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <issueManagement>
