@@ -38,8 +38,6 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
     <javase.version>1.8</javase.version>
     <javase.release>8</javase.release>
     <javadoc.link.javase>${javadoc.link.javase.8}</javadoc.link.javase>
-    <!-- This must be set in your ~/.m2/settings.xml when building with JDK < 9 -->
-    <javase.bootclasspath>${javase.bootclasspath.8}</javase.bootclasspath>
 
     <description.html><![CDATA[Additional <a target="${javadoc.target}" href="https://github.com/s4u/pgp-keys-map">PGP keys map</a> for dependencies used by AO open-source projects.]]></description.html>
   </properties>
