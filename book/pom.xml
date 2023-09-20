@@ -41,9 +41,6 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
     <documented.artifactId>pgp-keys-map</documented.artifactId>
     <documented.name>AO PGP Keys Map</documented.name>
     <documented.description>Additional PGP keys map for dependencies used by AO open-source projects.</documented.description>
-    <!-- Java 1.8 -->
-    <documented.javase.version>1.8</documented.javase.version>
-    <documented.javadoc.link.javase>${javadoc.link.javase.8}</documented.javadoc.link.javase>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
