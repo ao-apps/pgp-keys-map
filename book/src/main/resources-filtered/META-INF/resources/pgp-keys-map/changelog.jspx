@@ -37,7 +37,7 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2021-07-08T19:12:26-05:00"
-    dateModified="2024-05-08T01:27:06Z"
+    dateModified="2024-05-23T18:55:34Z"
   >
     <c:set var="latestRelease" value="1.12.0" />
     <c:if test="${
@@ -52,7 +52,14 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
         artifactId="@{documented.artifactId}"
         repository="@{nexusUrl}content/repositories/snapshots/"
         scmUrl="@{project.scm.url}"
-      />
+      >
+        <ul>
+          <li>
+            Temporarily added new PGP keys that we'll work on getting merged into
+            <ao:a href="https://github.com/s4u/pgp-keys-map">s4u/pgp-keys-map</ao:a>.
+          </li>
+        </ul>
+      </changelog:release>
     </c:if>
 
     <changelog:release
