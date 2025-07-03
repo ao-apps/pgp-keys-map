@@ -19,7 +19,7 @@ Additional [PGP keys map](https://github.com/s4u/pgp-keys-map) for dependencies 
 ## Project Links
 * [Project Home](https://oss.aoapps.com/pgp-keys-map/)
 * [Changelog](https://oss.aoapps.com/pgp-keys-map/changelog)
-* [Maven Central Repository](https://central.sonatype.com/artifact/com.aoapps/pgp-keys-map)
+* [Central Repository](https://central.sonatype.com/artifact/com.aoapps/pgp-keys-map)
 * [GitHub](https://github.com/ao-apps/pgp-keys-map)
 
 ## Contact Us
