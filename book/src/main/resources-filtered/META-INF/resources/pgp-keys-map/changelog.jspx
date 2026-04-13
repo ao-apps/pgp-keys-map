@@ -51,7 +51,14 @@ along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
         groupId="@{project.groupId}"
         artifactId="@{documented.artifactId}"
         scmUrl="@{project.scm.url}"
-      />
+      >
+        <ul>
+          <li>
+            Temporarily added new PGP keys that we'll work on getting merged into
+            <ao:a href="https://github.com/s4u/pgp-keys-map">s4u/pgp-keys-map</ao:a>.
+          </li>
+        </ul>
+      </changelog:release>
     </c:if>
 
     <changelog:release
