@@ -191,3 +191,6 @@ commons-codec:commons-codec:[1.21.0,) = 0xF4DD59C90148BDC52BEB90A4530AA5F25C2501
 
 # Used by commons-logging:commons-logging:1.3.6
 commons-logging:commons-logging:[1.3.6,) = 0xF4DD59C90148BDC52BEB90A4530AA5F25C25011F
+
+# Used by org.apache.ant:ant:1.10.17
+org.apache.ant:ant:[1.10.17,) = 0xBC26C53AF531F8B4B3F5930AAFBD3AF8EAFA72DA
