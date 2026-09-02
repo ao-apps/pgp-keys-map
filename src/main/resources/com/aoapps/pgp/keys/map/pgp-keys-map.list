@@ -216,3 +216,6 @@ org.osgi:org.osgi.core:[5.0.0,) = 0xF1122E51D257893CADEA116D4834BC0C818CD34C
 org.apache.felix:org.apache.felix.bundlerepository:[2.0.10,) = 0xEB1BC31D2376161CA9F00C7BDDFD4F61F24F0D9F
 org.apache.felix:org.apache.felix.metatype:[1.2.4,) = 0x5FD5145A8BD0317A94DC77133FCF529FF2F27A06
 net.sf.kxml:kxml2:2.2.2 = noSig
+
+# Used by commons-validator-1.11.0
+commons-validator:commons-validator:[1.11.0,) = 0xF4DD59C90148BDC52BEB90A4530AA5F25C25011F
