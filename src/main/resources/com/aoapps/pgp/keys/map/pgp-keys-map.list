@@ -219,3 +219,6 @@ net.sf.kxml:kxml2:2.2.2 = noSig
 
 # Used by commons-validator-1.11.0
 commons-validator:commons-validator:[1.11.0,) = 0xF4DD59C90148BDC52BEB90A4530AA5F25C25011F
+
+# Used by xmlbeans-5.4.0
+org.apache.xmlbeans:xmlbeans:[5.4.0,) = 0x6FFE44D6F720907EDBD75D84258E7A9DC3490481
