@@ -133,6 +133,7 @@ com.google.api.grpc:proto-google-cloud-recaptchaenterprise-v1 = 0x47504B76CF89C1
 # Transitive
 com.google.api:api-common = 0x47504B76CF89C15C0512D9AFE16AB52D79FD224F
 com.google.auto.value:auto-value-annotations = 0xC7BE5BCC9FEC15518CFDA882B0F3710FA64900E7
+org.conscrypt:conscrypt-openjdk-uber:[2.6.2,) = 0x49CF4E3B2996BE658A57DD39655CCC51B9BD2C38
 com.google.api:gax-grpc = 0x47504B76CF89C15C0512D9AFE16AB52D79FD224F
 com.google.api:gax-httpjson = 0x47504B76CF89C15C0512D9AFE16AB52D79FD224F
 com.google.http-client:google-http-client = 0x47504B76CF89C15C0512D9AFE16AB52D79FD224F
