@@ -1,25 +1,25 @@
 #!/usr/bin/env groovy
 /*
- * ao-javadoc-offline - A bundle of Javadoc element-list and package-list files supporting offline builds.
+ * pgp-keys-map - Additional PGP keys map for dependencies used by AO open-source projects.
  * Copyright (C) 2021, 2022, 2023, 2024, 2025, 2026  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
  *
- * This file is part of ao-javadoc-offline.
+ * This file is part of pgp-keys-map.
  *
- * ao-javadoc-offline is free software: you can redistribute it and/or modify
+ * pgp-keys-map is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * ao-javadoc-offline is distributed in the hope that it will be useful,
+ * pgp-keys-map is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Lesser General Public License for more details.
  *
  * You should have received a copy of the GNU Lesser General Public License
- * along with ao-javadoc-offline.  If not, see <https://www.gnu.org/licenses/>.
+ * along with pgp-keys-map.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 // Parent, Extensions, Plugins, Direct and BOM Dependencies
